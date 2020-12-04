@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Font */
+@import url(//db.onlinewebfonts.com/c/128f6a9a5aa04be79c0ce33ed4330f2f?family=LTAuthenticSerif+Medium);
+@font-face {font-family: "LTAuthenticSerif Medium"; 
+    src: url("//db.onlinewebfonts.com/t/128f6a9a5aa04be79c0ce33ed4330f2f.eot"); 
+    src: url("//db.onlinewebfonts.com/t/128f6a9a5aa04be79c0ce33ed4330f2f.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/128f6a9a5aa04be79c0ce33ed4330f2f.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/128f6a9a5aa04be79c0ce33ed4330f2f.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/128f6a9a5aa04be79c0ce33ed4330f2f.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/128f6a9a5aa04be79c0ce33ed4330f2f.svg#LTAuthenticSerif Medium") format("svg"); }
+
+/* My CSS */
+body{
+    background-color: white;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1600px;
+}
+/* Nav-bar */
+.logo{
+    width: 120px;
+    margin-top: 10px;
+    margin-right: 70px;
+    float: left;
+    border-right: none;
+}
+ul{
+    margin-left: 0px;
+}
+ul li{
+    list-style: none;
+    float: left;
+    line-height: 100px;
+}
+.line{
+    border-right: 1px solid white;
+}
+
+ul li a{
+    display: block;
+    font-family: "LTAuthenticSerif Medium",arial;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:white;
+    padding: 0 40px;
+}
+ul li a:hover{
+    color: #f4b503;
+}
+nav{
+    widows: 100%;
+    height: 100px;
+    background: linear-gradient(0.25turn, #102d69, #145785);
+}
+/* SideBar */
+.sidebar{
+    width: 300px;
+    background:#102d69;
+    min-height: 830px;
+    float: left;
+}
+.side-contain{
+    margin: 10px;
+}
+.side-info{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #555;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'LTAuthenticSans Medium', sans-serif;
+    background-color: white;
+    text-align: center ;
+    border-left: 3px solid#f4b503;
+    padding: 15px;
+}
+.fb-page{
+    height: 400px;
+}
+.side-etab h3, h4{
+    color: white;
+    font-family: 'LTAuthenticSans Medium', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+}
+.side-etab p{
+    color: white;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+/* Information in main page (content) */
+    /* Welcome info */
+.imgmorning{
+    position: absolute;
+    object-fit: cover;
+    width: 1300px;
+    height: 300px;
+    object-position: 100% 75%;
+    float: right;
+    z-index: -1;
+}
+.imgmorning-overlay{
+    background-color: #00000078;
+    width: 1300px;
+    height: 300px;
+    float: right;
+}
+.imgmorning-overlay p{
+    font-family: "LTAuthenticSerif Medium",arial;
+    font-size: 25px;
+    line-height: 35px;
+    color:white;
+    padding-top: 100px;
+
+    
+}
+    /* Presentation */
+.car{
+    height: 340px;
+    position: relative;
+    z-index: -5;
+}
+.car p{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    color: #555;
+    font-family: "LTAuthenticSerif Medium",arial;
+    border-bottom: 3px solid#102d69;
+    font-size: 22px;
+}
+.imgcar{
+    width: 400px;
+    top: 545px;   
+    position: absolute;
+    margin-left: 405px;
+    display: block;
+
+}
+.imgcar-underlay {
+    
+    float: left;
+    height: 277px;
+    width: 410px;
+    background-color: #102d69;
+    margin: 100px;
+
+}
+.butt-inscriv{
+    float: left;
+    height: 50px;
+    width: 300px;
+    margin-left: 80px;
+    background-color: #102d69;
+}
+
+.butt-propo{
+    float: left;
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: #102d69;
+    margin-left: 80px;
+}
+.butt-propo p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: "LTAuthenticSerif Medium",arial;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.butt-inscriv p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: "LTAuthenticSerif Medium",arial;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.ou{
+    margin-top: 20px;
+    float: left;
+    height: 50px;
+    width: 300px;
+    margin-left: 80px;
+    text-align: center;
+    font-family: "LTAuthenticSerif Medium",arial;
+    font-size: 18px;
+    
+}
+.butt{
+    margin: 160px;
+}
+
+
+/* Footer */
+footer{
+    background-color: #102d69;
+    height: 80px;
+    Width: 1600px;
+    float: left;
+
+}
